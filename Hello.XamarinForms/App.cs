@@ -1,6 +1,6 @@
 ﻿using Xamarin.Forms;
 
-namespace Hello
+namespace Hello.XamarinForms
 {
     public class App
     {
@@ -11,7 +11,7 @@ namespace Hello
                 Content =
                     new Label
                     {
-                        Text = "Hello, Forms !",
+                        Text = "Hello, Xamarin Forms!",
                         VerticalOptions = LayoutOptions.CenterAndExpand,
                         HorizontalOptions = LayoutOptions.CenterAndExpand,
                     },

@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{23EA29FC-F39D-44AE-AA4B-18BD1F2D1EA0}</ProjectGuid>
+    <ProjectGuid>{19D77D55-1A5E-4DD9-A67C-C5C7E6AA5C63}</ProjectGuid>
     <ProjectTypeGuids>{C089C8C0-30E0-4E22-80C0-CE093F111A43};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -19,13 +19,13 @@
     </SupportedCultures>
     <XapOutputs>true</XapOutputs>
     <GenerateSilverlightManifest>true</GenerateSilverlightManifest>
-    <XapFilename>PhoneApp1_$(Configuration)_$(Platform).xap</XapFilename>
+    <XapFilename>Hello_WinPhone_Debug_AnyCPU.xap</XapFilename>
     <SilverlightManifestTemplate>Properties\AppManifest.xml</SilverlightManifestTemplate>
-    <SilverlightAppEntry>Hello.WinPhone.App</SilverlightAppEntry>
+    <SilverlightAppEntry>Hello.XamarinForms.WinPhone.App</SilverlightAppEntry>
     <ValidateXaml>true</ValidateXaml>
     <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
     <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
-    <NuGetPackageImportStamp>0967a60b</NuGetPackageImportStamp>
+    <NuGetPackageImportStamp>fbf68bfb</NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -142,12 +142,12 @@
     <Content Include="Assets\Tiles\IconicTileSmall.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <BundleResource Include="Toolkit.Content\ApplicationBar.Select.png" />
-    <BundleResource Include="Toolkit.Content\ApplicationBar.Delete.png" />
-    <BundleResource Include="Toolkit.Content\ApplicationBar.Check.png" />
-    <BundleResource Include="Toolkit.Content\ApplicationBar.Cancel.png" />
-    <BundleResource Include="Toolkit.Content\ApplicationBar.Add.png" />
     <Content Include="README_FIRST.txt" />
+    <Content Include="Toolkit.Content\ApplicationBar.Add.png" />
+    <Content Include="Toolkit.Content\ApplicationBar.Cancel.png" />
+    <Content Include="Toolkit.Content\ApplicationBar.Check.png" />
+    <Content Include="Toolkit.Content\ApplicationBar.Delete.png" />
+    <Content Include="Toolkit.Content\ApplicationBar.Select.png" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\AppResources.resx">
@@ -158,7 +158,6 @@
   <ItemGroup>
     <ProjectReference Include="..\Hello.XamarinForms\Hello.XamarinForms.csproj">
       <Name>Hello.XamarinForms</Name>
-      <Project>{0316722C-DE6B-4B9A-9949-8CB9EBF89495}</Project>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

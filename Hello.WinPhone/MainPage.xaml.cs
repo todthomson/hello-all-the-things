@@ -1,5 +1,4 @@
-﻿using Microsoft.Phone.Controls;
-using Xamarin.Forms;
+﻿using Xamarin.Forms;
 
 namespace Hello.WinPhone
 {
@@ -8,12 +7,8 @@ namespace Hello.WinPhone
         public MainPage()
         {
             InitializeComponent();
-
             Forms.Init();
-            Content = Hello.App.GetMainPage().ConvertPageToUIElement(this);
+            Content = XamarinForms.App.GetMainPage().ConvertPageToUIElement(this);
         }
     }
 }
-
-
-
